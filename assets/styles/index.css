@@ -60,7 +60,7 @@ input, select {
 }
 
 header {
-  background: url(/../assets/images/bg-slider-06.jpg) center/cover;
+  background: url(../../assets/images/bg-slider-06.jpg) center/cover;
   height: 100vh;
   color: white;
   text-align: center;
@@ -202,7 +202,7 @@ main .aboutUs .left-part .left-content .identite p {
   font-weight: 700;
 }
 main .aboutUs .right-part {
-  background: url(/assets/images/store-01.jpg) center/cover;
+  background: url(../../images/store-01.jpg) center/cover;
 }
 main .dishMenu {
   position: relative;
@@ -300,7 +300,7 @@ main .dishMenu::after {
   position: absolute;
   bottom: 0;
   left: 0;
-  background: url(/assets/images/bg-menu-01.jpg);
+  background: url(../../images/bg-menu-01.jpg);
   background-repeat: no-repeat;
   width: 100%;
   min-height: 750px;
@@ -500,16 +500,16 @@ main .event .event-content .left-content .up-event .right-part, main .event .eve
   letter-spacing: 2px;
 }
 main .event .event-content .left-content .up-event .left-part {
-  background: url(/assets/images/event-01.jpg) center/cover;
+  background: url(../../assets/images/event-01.jpg) center/cover;
   height: 100%;
 }
 main .event .event-content .left-content .down-event .left-part {
-  background: url(/assets/images/event-02.jpg) center/cover;
+  background: url(../../assets/images/event-02.jpg) center/cover;
   height: 100%;
 }
 main .event .event-content .right-content {
   margin-left: 25px;
-  background: url(/assets/images/event-03.jpg);
+  background: url(../../assets/images/event-03.jpg);
   padding: 30px;
 }
 main .event .event-content .right-content .content {
@@ -577,7 +577,7 @@ main .ceo .ceo-content .identite h4 {
 main .ceo::after {
   content: "";
   position: absolute;
-  background: url(/assets/images/gmap.jpg) center/cover;
+  background: url(../../assets/images/gmap.jpg) center/cover;
   bottom: 0;
   left: 0;
   width: 100%;

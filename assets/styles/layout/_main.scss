@@ -142,7 +142,7 @@ main {
       position: absolute;
       bottom: 0;
       left: 0;
-      background: url(/assets/images/bg-menu-01.jpg);
+      background: url(../../images/bg-menu-01.jpg);
       background-repeat: no-repeat;
       width: 100%;
       min-height: 750px;
@@ -342,14 +342,14 @@ main {
 
         .up-event{
           .left-part{
-            background: url(/assets/images/event-01.jpg) center/cover;
+            background: url(../../assets/images/event-01.jpg) center/cover;
             height: 100%;
           }
         }
 
         .down-event{
           .left-part{
-            background: url(/assets/images/event-02.jpg) center/cover;
+            background: url(../../assets/images/event-02.jpg) center/cover;
             height: 100%;
           }
         }
@@ -357,7 +357,7 @@ main {
 
       .right-content{
         margin-left: 25px;
-        background: url(/assets/images/event-03.jpg);
+        background: url(../../assets/images/event-03.jpg);
         padding: 30px;
         .content{
           background: $white1;
@@ -432,7 +432,7 @@ main {
     &::after{
       content: "";
       position: absolute;
-      background: url(/assets/images/gmap.jpg) center/cover;
+      background: url(../../assets/images/gmap.jpg) center/cover;
       bottom:0;
       left: 0;
       width: 100%;
