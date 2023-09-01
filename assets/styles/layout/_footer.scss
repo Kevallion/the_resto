@@ -1,18 +1,35 @@
 footer{
+    @media screen and (max-width:872px) {
+        background: rgb(27, 26, 24);
+    }
     background: url(../../assets/images/bg-footer.jpg) center/cover;
 
     .footer-content{
+        @media screen and (max-width:872px) {
+            grid-template-columns: 1fr;
+            .left-part{
+                display: none;
+            }
+        }
         max-width: 1300px;
         margin: 0 auto;
         display: grid;
         grid-template-columns: 1fr 1fr;
         color: $white1;
         
+        
         .left-part, .right-part{
+            @media screen and (max-width:872px) {
+                padding: 30px;
+                h3{
+                    font-size: 0.9rem;
+                }
+            }
             padding: 60px;
         }
 
         .left-part{
+            
             .write{
                 font-size: 3rem;
                 margin-bottom: 15px;
@@ -35,6 +52,9 @@ footer{
                 display: flex;
                 align-items: center;
                 ul{
+                    @media screen and (max-width:872px) {
+                       width: 50%; 
+                    }
                     margin-left: 40px;
                     display: flex;
                     width: 60%;

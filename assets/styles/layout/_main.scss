@@ -2,11 +2,18 @@ main {
   background-color: rgb(27, 26, 24);
 
   .aboutUs {
+
+    @media screen and (max-width:872px) {
+      grid-template-columns: 1fr;
+    }
+
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
     background: rgb(239, 238, 238);
     .left-part {
+
+      
       padding: 20px;
 
       .left-content {
@@ -75,6 +82,10 @@ main {
       }
 
       .categories {
+        @media screen and (max-width:872px) {
+          font-size: 0.8rem;
+          
+        }
         display: flex;
         justify-content: space-around;
         margin-bottom: 40px;
@@ -95,8 +106,12 @@ main {
       border-top: 5px solid $brown1;
       background: $white1;
       z-index: 2;
-
+      width: 90%;
       .dish-gallery {
+        @media screen and (max-width:872px) {
+          grid-template-columns: 1fr;
+          
+        }
         padding: 25px;
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -142,7 +157,7 @@ main {
       position: absolute;
       bottom: 0;
       left: 0;
-      background: url(../../assets/images/bg-menu-01.jpg);
+      background: url(../../assets/images/bg-menu-01.jpg) center/cover;
       background-repeat: no-repeat;
       width: 100%;
       min-height: 750px;
@@ -151,6 +166,12 @@ main {
   }
 
   .booking {
+
+    @media screen and (max-width:872px){
+      grid-template-columns: 1fr;
+      width: 90%;
+    }
+
     background: $white1;
     max-width: 1300px;
     margin: 130px auto 150px auto;
@@ -194,6 +215,9 @@ main {
     }
 
     .right-part{
+        @media screen and (max-width:872px) {
+          padding:45px 40px 45px ;
+        }
         text-align: center;
         display:flex;
         justify-content: center;
@@ -218,6 +242,9 @@ main {
         form{
             width: 90%;
             .form-content{
+              @media screen and (max-width:872px){
+                grid-template-columns: 1fr;
+              }
                 display: grid;
                 grid-template-columns: 1fr 1fr 1fr;
                 justify-items: center;
@@ -230,8 +257,14 @@ main {
             }
 
             input[type="submit"]{
-                margin-top: 50px;
-                padding: 20px 45px;
+              @media screen and (max-width:872px){
+                font-size:0.9rem ;
+              }
+                margin: 50px auto 0 auto;
+                min-width: 174px;
+                width: 50%;
+                max-width: 200px;
+                text-align: center;
                 letter-spacing: 5px;
                 font-weight: 600;
                 border: none;
@@ -250,6 +283,9 @@ main {
   }
 
   .event{
+    @media screen and (max-width:872px){
+      display: none;
+    }
     text-align: center;
     
     h2{
@@ -387,10 +423,28 @@ main {
   }
 
   .ceo{
+    @media screen and (max-width:872px) {
+      width: 90%;
+      margin: 0 auto;
+      
+      .ceo-content{
+
+        p{
+          font-size: 1rem;
+          line-height: 30px;
+        }
+
+      }
+    }
     position: relative;
     margin-top: 220px;
     min-height: 700px;
     .ceo-content{
+
+      @media screen and (max-width:872px) {
+        padding: 80px 60px 80px;
+      }
+
       position: relative;
       max-width:1210px;
       margin: 0 auto;

@@ -13,6 +13,16 @@ header{
         max-width: 1300px;
         margin: 0 auto;
 
+        @media screen and (max-width:872px){
+
+            nav{
+                .nav-middle{
+                    display: none;
+                }
+            }
+            
+        }
+
         nav, .nav-middle, .nav-right{
             display: flex;
             align-items: center;
