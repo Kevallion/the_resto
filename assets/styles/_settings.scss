@@ -1,0 +1,76 @@
+$white1:#EFEEEE;
+$brown1:#A67342;
+
+@font-face {
+    font-family:"Allura";
+    src: url(../fonts/Allura-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-Light.ttf);
+}
+
+$allura: Allura, sans-serif;
+$poppins: Poppins, sans-serif;
+$roboto: Roboto, sans-serif; 
+
+/**************** PARAMETRE GENERAUX ******************/
+*{
+    padding: 0;
+    margin: 0;
+    
+    box-sizing: border-box;
+}
+
+@mixin spoonFork{
+    height: 35px;
+    width: 35px;
+}
+
+body{
+font-family: $roboto;
+    p{
+        font-size: 1.1rem;
+    }
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5{
+    text-transform: uppercase;
+    font-family: $poppins;
+}
+
+input,select{
+    display: inline-block;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.148);
+    outline: none;
+    background: none;
+    padding: 20px 0 15px;
+    font-size: 1.2rem;
+}
+
+.write{
+    font-family: $allura;
+    text-transform:none;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.brown{
+    color: $brown1;
+}
+

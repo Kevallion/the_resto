@@ -1,0 +1,98 @@
+
+
+header{
+    background: url(/../assets/images/bg-slider-06.jpg) center/cover;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    .header-container{
+        max-width: 1300px;
+        margin: 0 auto;
+
+        nav, .nav-middle, .nav-right{
+            display: flex;
+            align-items: center;
+        }
+
+        nav{
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translate(-50%);
+            width: 70%;
+
+            padding-top: 20px;
+            justify-content: space-between;
+            text-transform: uppercase;
+            font-family: Roboto;
+            font-size: 0.9em;
+
+            li{
+                cursor: pointer;
+            }
+
+            .logo{
+                font-size: 3rem;
+                .write{
+                    font-weight: 700;
+                }
+            }
+            
+            .nav-middle{
+                width: 70%;
+                justify-content: space-between;
+
+                li:first-child{
+                    border-bottom: 1px solid white;
+                }
+
+                li:hover{
+                    border-bottom: 1px solid white;
+                }
+
+                &:hover li:not(:hover){
+                    border: none;
+                }
+            }
+
+            .nav-right{
+                justify-content: space-between;
+                li{
+                    padding: 0 10px;
+                }
+            }
+
+        }
+
+        .header-content{
+            position: relative;
+            top: -30px;
+           h1{
+            font-size: 4rem;
+            letter-spacing: 10px;
+            line-height: 50px;
+            margin-bottom: 65px;
+            span{
+                font-weight: 300;
+                letter-spacing: 1px;
+            }
+           }
+
+           img{
+            @include spoonFork();
+           }
+
+           p{
+            margin-top: 45px;
+            letter-spacing: 10px;
+            text-transform: uppercase;
+           }
+           
+        }
+       
+    }
+}
